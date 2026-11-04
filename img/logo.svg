@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 650">
+    <defs>
+        <mask id="decoupe" maskUnits="userSpaceOnUse" x="0" y="0" width="600" height="650" style="mask-type:luminance">
+            <rect width="600" height="650" fill="white" />
+
+            <!-- Les morceaux retirés pour former le C -->
+            <circle cx="500" cy="170" r="55" fill="black" />
+            <circle cx="410" cy="180" r="55" fill="black" />
+            <circle cx="330" cy="220" r="55" fill="black" />
+            <circle cx="280" cy="300" r="55" fill="black" />
+            <circle cx="270" cy="390" r="55" fill="black" />
+            <circle cx="320" cy="475" r="55" fill="black" />
+            <circle cx="410" cy="510" r="55" fill="black" />
+            <circle cx="500" cy="520" r="55" fill="black" />
+            <rect x="500" y="100" width="100" height="145" fill="black" />
+            <rect x="500" y="440" width="100" height="170" fill="black" />
+        </mask>
+    </defs>
+
+    <!-- Aucun fond : le logo est transparent autour -->
+    <g mask="url(#decoupe)">
+        <ellipse cx="300" cy="120" rx="200" ry="50" fill="#e8b977" />
+        <rect x="100" y="120" width="400" height="50" fill="#e8b977" />
+
+        <circle cx="230" cy="105" r="10" fill="#f4f4f4" />
+        <circle cx="260" cy="90" r="7" fill="#f4f4f4" />
+        <circle cx="265" cy="110" r="5" fill="#f4f4f4" />
+
+        <rect x="100" y="180" width="400" height="50" rx="15" fill="#75695b" />
+
+        <line x1="110" y1="275" x2="170" y2="240" stroke="#2ee348" stroke-width="16" stroke-linecap="round" />
+        <line x1="170" y1="240" x2="230" y2="275" stroke="#2ee348" stroke-width="16" stroke-linecap="round" />
+        <line x1="230" y1="275" x2="290" y2="240" stroke="#2ee348" stroke-width="16" stroke-linecap="round" />
+        <line x1="290" y1="240" x2="350" y2="275" stroke="#2ee348" stroke-width="16" stroke-linecap="round" />
+        <line x1="350" y1="275" x2="410" y2="240" stroke="#2ee348" stroke-width="16" stroke-linecap="round" />
+        <line x1="410" y1="240" x2="470" y2="275" stroke="#2ee348" stroke-width="16" stroke-linecap="round" />
+
+        <polygon points="240,180 420,180 330,285" fill="#ffd400" />
+        <line x1="110" y1="305" x2="490" y2="305" stroke="#ff1a12" stroke-width="16" stroke-linecap="round" />
+        <rect x="100" y="320" width="400" height="50" rx="15" fill="#75695b" />
+        <line x1="110" y1="385" x2="490" y2="385" stroke="#c85bb8" stroke-width="16" stroke-linecap="round" />
+
+        <line x1="110" y1="435" x2="170" y2="400" stroke="#2ee348" stroke-width="16" stroke-linecap="round" />
+        <line x1="170" y1="400" x2="230" y2="435" stroke="#2ee348" stroke-width="16" stroke-linecap="round" />
+        <line x1="230" y1="435" x2="290" y2="400" stroke="#2ee348" stroke-width="16" stroke-linecap="round" />
+        <line x1="290" y1="400" x2="350" y2="435" stroke="#2ee348" stroke-width="16" stroke-linecap="round" />
+        <line x1="350" y1="435" x2="410" y2="400" stroke="#2ee348" stroke-width="16" stroke-linecap="round" />
+        <line x1="410" y1="400" x2="470" y2="435" stroke="#2ee348" stroke-width="16" stroke-linecap="round" />
+
+        <polygon points="120,320 320,320 220,430" fill="#ffd400" />
+        <rect x="100" y="455" width="400" height="50" rx="15" fill="#75695b" />
+        <line x1="110" y1="520" x2="490" y2="520" stroke="#ff1a12" stroke-width="16" stroke-linecap="round" />
+        <rect x="100" y="535" width="400" height="35" fill="#e8b977" />
+        <ellipse cx="300" cy="570" rx="200" ry="30" fill="#e8b977" />
+        <polygon points="280,455 470,455 380,560" fill="#ffd400" />
+    </g>
+</svg>
